@@ -1,0 +1,21 @@
+{
+  "name": "e2e-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha --timeout 35000 --opts ./mocha.opts ./DEV/E2E/* || true"
+  },
+  "keywords": [],
+  "author": "Wiredelta ApS",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "electron": "^6.0.12",
+    "mocha": "^6.2.2",
+    "mochawesome": "^4.1.0",
+    "spectron": "^8.0.0"
+  }
+}

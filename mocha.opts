@@ -1,0 +1,1 @@
+--reporter mochawesome --reporter-options overwrite=true,reportTitle=WD-E2E-SAMPLE,reportFilename=report_date,reportDir=./DEV/REPORTS,reportPageTitle=WD-E2E-SAMPLE,autoOpen=true,timestamp=hh-MM_dd-mm-yyyy
